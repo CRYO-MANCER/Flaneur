@@ -1,0 +1,33 @@
+@import "./styles/fonts.css";
+@import "./styles/globals.css";
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(139,92,246,.7) transparent;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(139,92,246,.6);
+  border-radius: 999px;
+}
+
+::selection {
+  background: rgba(139,92,246,.4);
+}
